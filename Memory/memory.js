@@ -90,14 +90,6 @@ function checkMatch() {
     
     console.log("Check for match!");
     console.log(cards);
-    // if(cardsChosenIds[0]==cardsChosenIds[1]){
-    //     // Clicked the same card twice
-    //     console.log("Clicked the same card twice!");
-    //     cards[cardsChosenIds[0]].setAttribute('src','images/blank.png');
-    //     cardsChosen = [];
-    //     cardsChosenIds = [];
-    //     failedAttempts++;
-    //     return;
 
     if(cardsChosenIds[0]!=cardsChosenIds[1] && cardsChosen[0]==cardsChosen[1]){
         console.log("Match!");
