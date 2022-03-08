@@ -98,7 +98,7 @@ function checkMatch() {
     //     cardsChosenIds = [];
     //     failedAttempts++;
     //     return;
-    // }
+
     if(cardsChosenIds[0]!=cardsChosenIds[1] && cardsChosen[0]==cardsChosen[1]){
         console.log("Match!");
         cards[cardsChosenIds[0]].setAttribute('src','images/white.png');
