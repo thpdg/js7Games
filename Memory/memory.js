@@ -79,9 +79,10 @@ function updateScore() {
     const score = document.querySelector('#result');
     const attempts = goodAttempts + failedAttempts;
     score.innerHTML = goodAttempts + " of " + attempts;
+    const perc = 100.0 * (6.0 / attempts);
     if(goodAttempts == 6){
         // Must have won!
-        gridDisplay.innerHTML = "<h1>YOU WIN!</h1>"
+        gridDisplay.innerHTML = "<h1>YOU WIN! " + perc + "%</h1>"
     }
 }
 
